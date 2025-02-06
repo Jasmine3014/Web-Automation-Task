@@ -5,12 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import tests.BaseTest;
 
 import java.time.Duration;
 
-public class LogoutPage extends BaseTest {
-
+public class LogoutPage {
+    private WebDriver driver;
     private final By hamburgerMenu = By.id("react-burger-menu-btn");
     private final By logoutBtn = By.id("logout_sidebar_link");
     private final By loginBox = By.className("login-box");

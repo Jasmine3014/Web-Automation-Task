@@ -2,9 +2,8 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import tests.BaseTest;
 
-public class LoginPage extends BaseTest {
+public class LoginPage {
     private WebDriver driver;
     private final By userName = By.id("user-name");
     private final By password = By.id("password");

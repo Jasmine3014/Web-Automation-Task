@@ -2,9 +2,9 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import tests.BaseTest;
 
-public class AddToCard extends BaseTest {
+public class AddToCard {
+    private WebDriver driver;
     private final By backPackBtn =By.id("add-to-cart-sauce-labs-backpack");
     private final By bikeLightBtn =By.id("add-to-cart-sauce-labs-bike-light");
     private final By jacketBtn =By.id("add-to-cart-sauce-labs-fleece-jacket");

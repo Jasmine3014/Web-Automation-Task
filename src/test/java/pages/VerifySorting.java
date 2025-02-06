@@ -3,11 +3,11 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import tests.BaseTest;
 
 import java.util.List;
 
-public class VerifySorting extends BaseTest {
+public class VerifySorting {
+    private WebDriver driver;
     private final By sortDropdown = By.xpath("//select[@data-test='product-sort-container']");
     private final By productNames = By.xpath("//div[@class='inventory_item_name']");
     private final By productPrices = By.xpath("//div[@class='inventory_item_price']");

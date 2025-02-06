@@ -2,9 +2,9 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import tests.BaseTest;
 
-public class CheckoutInfo extends BaseTest {
+public class CheckoutInfo {
+    private WebDriver driver;
     private final By firstName = By.id("first-name");
     private final By lastName = By.id("last-name");
     private final By postalCode = By.id("postal-code");
